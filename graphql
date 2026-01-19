@@ -1,0 +1,13 @@
+product-processor/
+├─ api/                  # Backend for Vercel (Serverless functions)
+│  └─ process-product.js
+├─ frontend/             # React frontend (Vite)
+│  ├─ src/
+│  │  ├─ App.jsx
+│  │  ├─ components/
+│  │  │  └─ ProductCard.jsx
+│  │  └─ main.jsx
+│  ├─ package.json
+│  └─ vite.config.js
+├─ package.json          # Root (optional)
+└─ README.md
